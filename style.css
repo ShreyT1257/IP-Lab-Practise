@@ -1,0 +1,102 @@
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.row
+{
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.tagline
+{
+    position: absolute;
+    width: 75%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+header
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(back.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1
+{
+    color: white;
+}
+
+.options
+{
+    float: right;
+    list-style: none;
+    margin-top: 3%;    
+}
+
+.options li
+{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.options li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 90%;
+    font-weight: bold;
+}
+
+.options li a:hover
+{
+    color: rgb(250, 178, 150);
+    border-bottom: 2px solid rgb(250, 178, 150);
+    padding: 2%;
+}
+
+.button
+{
+    margin-top: 1%;
+}
+
+.btn
+{
+    border: 1px solid rgb(250, 178, 150);
+    padding: 1% 2%;
+    text-decoration: none;
+    color : rgb(250, 178, 150);
+    border-radius: 10%;
+    margin-right: 1%;
+}
+
+.btn1:hover
+{
+    background-color: rgb(250, 178, 150);
+    color: black;
+    font-weight: bold;
+}
+
+.btn2:hover
+{
+    background-color: rgb(250, 178, 150);
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
